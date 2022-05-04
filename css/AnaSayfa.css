@@ -1,0 +1,181 @@
+
+/*Start Giris */
+
+.giris{
+    text-align: center;
+    background-color: #f6fffa;
+}
+
+.giris h3{
+    margin-top: 30px;
+    margin-bottom: 45px;
+    color: #526261;
+}
+
+.giris p{
+    color: #8f8f8f;
+    margin-bottom: 30px;
+}
+
+.giris p b{
+    color: #3ec77f;
+}
+/*End Giris */
+
+/*Start About Me */
+
+.about-me{
+    background-color: #dfebe4;
+    color: #526261;
+    overflow: hidden;
+}
+
+.about-me hr{
+    margin-right: 30%;
+    margin-left: 30%;
+    width: 40%;
+    margin-top: 40px;
+}
+
+.about-me .intro{
+    float: left;
+    width: 50%;
+}
+
+.about-me .intro p{
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+.about-me .intro p b{
+    color: #3ec77f;
+}
+
+.about-me .intro p a{
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+.about-me .image{
+    float: left;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.about-me .image img{
+    width: 100%;
+}
+
+/*End About Me */
+
+/*Start Oz Gecmis */
+
+.oz-gecmis{
+    background-color:#f6fffa ;
+    overflow: hidden;
+}
+
+.oz-gecmis .image{
+    float: left;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.oz-gecmis .image img{
+    width: 100%;
+}
+
+.oz-gecmis .intro{
+    float: left;
+    width: 60%;
+}
+
+.oz-gecmis .intro p{
+    font-size:medium;
+    margin-top: 40px;
+    line-height: 30px;
+    color: #8f8f8f;
+}
+
+.oz-gecmis .intro h4{
+    color: #526261;
+    margin-bottom: 20px;
+}
+
+.oz-gecmis .intro .image-div{
+    float: left;
+    width: 50%;
+    margin-bottom: 20px;
+    color: #3ec77f;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.oz-gecmis .intro .image-div span{
+    float: left;
+    width: 10%;
+    margin-right: 5%;
+}
+.oz-gecmis .intro .image-div div{
+    float: left;
+    width: 85%;
+}
+
+.oz-gecmis .intro .image-div img{
+    width: 100%;
+}
+.oz-gecmis .intro p a{
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+/*End Oz Gecmis */
+
+/*Start Sehrim-Mirasimiz */
+
+.sehrim-mirasimiz{
+    background-color: #dfebe4;
+    color:#526261 ;
+
+}
+.sehrim{
+    overflow: hidden;
+}
+
+.sehrim-mirasimiz .intro{
+    float: left;
+    width: 60%;
+}
+
+.sehrim-mirasimiz .intro p{
+    margin-top: 5%;
+}
+
+.sehrim-mirasimiz .intro p b{
+    color: #3ec77f;
+}
+
+.sehrim-mirasimiz .intro p a{
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+.sehrim-mirasimiz .image{
+    float: left;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.sehrim-mirasimiz .image img{
+    width: 100%;
+}
+
+.sehrim-mirasimiz hr{
+margin: 0;
+}
+
+
+/*End Sehrim-Mirasimiz */
