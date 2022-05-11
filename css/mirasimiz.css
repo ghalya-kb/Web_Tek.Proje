@@ -1,0 +1,33 @@
+.mirasimiz{
+    background-color: #f6fffa;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.mirasimiz .monument{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.mirasimiz .monument h3{
+    color: #526261;
+}
+
+.mirasimiz .monument span:first-of-type{
+    color: #999;
+    display:block;
+    margin-bottom:10px;
+    margin-top: 5px;
+}
+
+.mirasimiz .monument span:last-of-type{
+    background-color:#2DCC70;
+    color:#FFF;
+    display:inline-block;
+    padding:4px 10px
+}
+
+.mirasimiz .monument p{
+    margin:0 0 10px 40px;
+    color: #8f8f8f;
+}
