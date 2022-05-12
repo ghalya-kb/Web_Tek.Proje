@@ -1,0 +1,64 @@
+/*Start Oz Gecmis*/    
+    main{
+        background-color: #f6fffa;
+    }
+
+    main h2{
+        color: #526261;
+    }
+
+    main h6{
+        color: #5e7c78;
+    }
+
+    section p{
+        color: #8f8f8f;
+    }
+
+    /*Start Section*/
+    
+
+        section p{
+            padding-left: 10px;
+        }
+        section .rcorners {
+            border-radius: 25px;
+            background: #dcdfff;
+            padding: 20px;
+            margin: 10px 0 0 5px;
+        }
+
+        section .rcorners1{
+            border-radius: 25px;
+            background: #dcdfff;
+            padding: 20px;
+            margin: 25px 0 0 5px;
+        }
+
+        section .rcorners .egitim{
+            margin-top: 20px;
+        }
+
+        section .progress{
+            margin-top: 5px !important;
+            background-color: white !important;
+        }
+        
+        section .progress-bar{
+            background-color: #2DCC70;
+        }
+    /*End Section*/
+
+    /*Start ASide*/
+
+        aside{
+            padding-top: 30px;
+        }
+
+        aside .progress-bar{
+            background-color: #2DCC70;
+        }
+
+    /*End Asude*/
+
+/*End Oz Gecmis*/    

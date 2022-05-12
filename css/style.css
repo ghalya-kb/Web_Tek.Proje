@@ -66,7 +66,7 @@
 
 /*Start Footer */
 
-    .footer {
+    footer {
     padding-bottom: 60px;
     background-color: #f6fffa;
     position: relative;
@@ -79,22 +79,22 @@
     padding-top: 60px;
     }
 
-    .footer h4{
+    footer h4{
     color: #526261;
     }
 
-    .footer p{
+    footer p{
     color: #8f8f8f;
     }
 
-    .footer .footer-social{
+    footer .footer-social{
     width: auto;
     height: auto;
     margin-bottom: 15%;
     margin-right:25%;
     }
 
-    .footer .footer-social ul{
+    footer .footer-social ul{
     list-style: none;
     padding-top: 25px;
     margin-left: 0;
@@ -102,21 +102,21 @@
     height: auto;
     }
 
-    .footer .footer-social ul li{
+    footer .footer-social ul li{
     float: left;
     width: 15%;
     margin: 0 4px;
     }
 
-    .footer .footer-social ul li img{
+    footer .footer-social ul li img{
         width:70%;
     }
 
-    .footer .footer-location h4{
+    footer .footer-location h4{
     margin-bottom: 25px;
     }
 
-    .footer .footer-location b{
+    footer .footer-location b{
     color: #2bb36a;
     }
 
