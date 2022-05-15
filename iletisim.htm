@@ -48,7 +48,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-silver">
             <div class="container-fluid">
 
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="ana-sayfa.htm">
                 <img src="image/coding-language.png" alt="" width="30" height="24">
                 </a>
 
@@ -63,7 +63,7 @@
                     <a class="nav-link" href="mirasimiz.htm">Mirasımız</a>
                     <a class="nav-link" href="oz-gecmis.htm">Öz geçmiş</a>
                     <a class="nav-link" href="#">İlgi Alanlarım</a>
-                    <a class="nav-link active" href="#">Bana Ulaşın</a>
+                    <a class="nav-link active" href="ilgi-alanlarim.htm">Bana Ulaşın</a>
                 </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@
 
 <!--Start Contact-->
 <div class="ulasin">
-        <form name="BaneUlasin" onsubmit = "return(validateForm())">
+        <form name="BaneUlasin" onsubmit = "return(validateForm())" method="post" action="iletisim.php">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
@@ -110,7 +110,7 @@
                             </tr>
                             <tr>
                                 <td>
-                                    <label for="name">Tel :</label>
+                                    <label for="tel">Tel :</label>
                                 </td>
                                 <td>
                                     <input type="text" name="Tel" id="tel" placeholder="555-555-55-55">
@@ -132,25 +132,25 @@
                                     Meslek :
                                 </td>
                                 <td>
-                                    <input type="checkbox" name="IlgiAlan" id="ilgiAlan" value="Front-end" class="form-check-input">
+                                    <input type="checkbox" name="meslek[]" id="meslek1" value="Front-end " class="form-check-input">
                                     <label for="IlgiAlan">Front-end</label>
                                     <br>
-                                    <input type="checkbox" name="IlgiAlan" id="ilgiAlan" value="Back-end" class="form-check-input">
+                                    <input type="checkbox" name="meslek[]" id="meslek2" value=" Back-end " class="form-check-input">
                                     <label for="IlgiAlan">Back-end</label>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <input type="checkbox" name="IlgiAlan" id="ilgiAlan" value="UI / UX Design" class="form-check-input">
+                                    <input type="checkbox" name="meslek[]" id="meslek3" value=" UI / UX Design " class="form-check-input">
                                     <label for="IlgiAlan">UI / UX Design</label>
                                     <br>
-                                    <input type="checkbox" name="IlgiAlan" id="ilgiAlan" value="web development" class="form-check-input">
+                                    <input type="checkbox" name="meslek[]" id="meslek4" value="web development " class="form-check-input">
                                     <label for="IlgiAlan"> web development</label>
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <label for="IlgiAlan"> Adres :</label>
+                                    <label for="adres"> Adres :</label>
                                 </td>
                                 <td>
                                     <textarea name="Adres" id="adres" rows="4" cols="30" placeholder="Adres Bilgilerinizi Giriniz...."></textarea>

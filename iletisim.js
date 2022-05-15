@@ -53,18 +53,11 @@ function validateForm()
         document.getElementById("er").focus() ;
         Hata = true;
     }
-    
-    if (ad == "")
-    {
-        uyariMesaj += "   \nAdınızı Giriniz !";
-        document.forms.BaneUlasin.fName.focus() ;
-        Hata = true;
-    }
 
     var adress = document.getElementById("adres").value;
     if (adress == "")
     {
-        uyariMesaj += "   \nAdres Bilgilerinizi Giriniz !";
+        uyariMesaj += "\n   Adres Bilgilerinizi Giriniz !";
         document.forms.BaneUlasin.Adres.focus() ;
         Hata = true;
     }
@@ -72,12 +65,41 @@ function validateForm()
     var gonderilenMesaj = document.getElementById("mesaj").value;
     if (gonderilenMesaj == "")
     {
-        uyariMesaj += "   \nMesajınızı Yazınız !";
+        uyariMesaj += "\n   Mesajınızı Yazınız !";
         document.forms.BaneUlasin.Mesaj.focus() ;
         Hata = true;
     }
 
     var nationality = document.getElementsByName("Uyruk").value;
+
+    var meslek_ = "";
+    if(document.getElementById("meslek1").checked == true)
+    {
+        meslek_ += document.getElementById("meslek1").value;
+    }
+
+    if(document.getElementById("meslek2").checked == true)
+    {
+        meslek_ += document.getElementById("meslek2").value;
+    }
+
+    if(document.getElementById("meslek3").checked == true)
+    {
+        meslek_ += document.getElementById("meslek3").value;
+    }
+
+    if(document.getElementById("meslek4").checked == true)
+    {
+        meslek_ += document.getElementById("meslek4").value;
+    }
+
+    if(meslek_ == "")
+    {
+        uyariMesaj += "\n   meslek Seçiniz !";
+        document.getElementById("meslek1").focus() ;
+        Hata = true;
+    }
+
 
     if(Hata)
     {
@@ -87,8 +109,15 @@ function validateForm()
         return false;
     }
 
-    else
-    {
-        return true;
-    }
+        document.getElementById("ad1").innerHTML = ad
+        document.getElementById("soyad1").innerHTML = soyad;
+        document.getElementById("email1").innerHTML = mail;
+        document.getElementById("tel1").innerHTML = numara;
+        document.getElementById("cinsiyet1").innerHTML = cinsiyet_;
+        document.getElementById("meslek1").innerHTML = meslek_;
+        document.getElementById("cinsiyet1").innerHTML = cinsiyet_;
+        document.getElementById("adres1").innerHTML = adress;
+        document.getElementById("uyruk1").innerHTML = nationality;
+        document.getElementById("mesaj1").innerHTML = gonderilenMesaj;
+
 }
